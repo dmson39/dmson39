@@ -1,0 +1,53 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Ryan Dongmin Son
+description: >- # this means to ignore newlines until "baseurl:"
+  Bay is a minimal Jekyll Theme.
+baseurl: "" # the subpath of the site
+url: "https://dmson39.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/newtitle.png
+google_analytics: ""
+
+header: 
+  pages:
+    - name: Home
+      slug: /
+    - name: Research
+    - name: Teaching
+    - name: Extracurricular
+    - name: Photography
+
+footer:
+  show_powered_by: true
+  contact:
+    - name: Email
+      value: dmson39@gmail.com
+      link: mailto:dmson39@gmail.com
+  Follow:
+    - name: Facebook
+      link: https://instagram.com/foto_teil
+
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1
